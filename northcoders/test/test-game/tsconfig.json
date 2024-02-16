@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "strict": false,
+    "moduleResolution": "node"
+  },
+  "files": ["src/index.ts"],
+  "include": [
+    "**/*.ts"
+  ],
+  "lib": ["es6", "dom", "dom.iterable", "scripthost"],
+"typeRoots": ["./node_modules/phaser/types"],
+"types": ["Phaser"]
+}
